@@ -14,6 +14,6 @@ puts(i+ i2.to_i)
 # Print the sum of the double variables on a new line.
 puts(d + d2.to_f)
 
-puts("HackerRank " + s2.chop)
+puts("HackerRank " + s2)
 # Concatenate and print the String variables on a new line
 # The 's' variable above should be printed first.
