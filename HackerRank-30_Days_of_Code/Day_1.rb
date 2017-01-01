@@ -4,16 +4,16 @@ s = 'HackerRank '
 
 
 # Declare second integer, double, and String variables.
-i2 = input()
+i2 = gets()
 # Read and save an integer, double, and String to your variables.
-d2 = input()
+d2 = gets()
 
-s2 = input()
+s2 = gets()
 # Print the sum of both integer variables on a new line.
-print(i+int(i2))
+puts(i+ i2.to_i)
 # Print the sum of the double variables on a new line.
-print(d + float(d2))
+puts(d + d2.to_f)
 
-print("HackerRank " + s2)
+puts("HackerRank " + s2.chop)
 # Concatenate and print the String variables on a new line
 # The 's' variable above should be printed first.
