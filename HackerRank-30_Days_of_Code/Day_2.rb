@@ -1,14 +1,12 @@
-mealCost = 12
-tipPercent = 20
-taxPercent = 8
+mealCost = gets().to_f
+tipPercent = gets().to_f
+taxPercent = gets().to_f
 
-tip = gets()
+tip = mealCost* (tipPercent/100).to_f
 
-tax = gets()
+tax = mealCost*(taxPercent/100).to_f
 
-
-
-totalCost = mealCost + (mealCost* (tip/100.to_f)) + (mealCost* (tax/100.to_f))
+totalCost = mealCost + tip + tax
 
 roundedCost = totalCost.to_i
 
